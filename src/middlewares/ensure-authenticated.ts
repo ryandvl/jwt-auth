@@ -28,6 +28,8 @@ function ensureAuthenticated(
 
   request.user = {
     id: String(user_id),
+    username: "??",
+    password: "??",
     role,
   };
 
