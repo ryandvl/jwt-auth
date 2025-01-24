@@ -1,5 +1,5 @@
 import { authConfig } from "@/configs/auth";
-import { AppError } from "@/utils/AppError";
+import { AppError } from "@/utils/app-error";
 import { Request, Response } from "express";
 import { sign } from "jsonwebtoken";
 
